@@ -1,0 +1,9 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: hasno-operator-catalog
+  namespace: hasno-setup-operator-system
+spec:
+  sourceType: grpc
+  image: quay.io/mshitrit/hasno-setup-operator-bundle
+  displayName: HA SNO Operator
