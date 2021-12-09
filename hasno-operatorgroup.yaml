@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: hasno-operator-group
+  namespace: hasno-setup-operator-system
+spec:
+  targetNamespaces:
+    - hasno-setup-operator-system
